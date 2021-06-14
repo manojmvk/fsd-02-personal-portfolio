@@ -1,0 +1,330 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway, sans-serif;
+    /* background-color: red; */
+}
+body{
+    padding-top: 67px;
+}
+
+.page-section{
+    padding-bottom: 60px;
+}
+/* section title */
+.section-title{
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.section-title .section-underline{
+    width: 50px;
+    height: 3px;
+    background-color: #34b7a7;
+    margin: 0 auto;
+}
+/* Section Subtitle */
+.section-sub-title{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* custom progress bar-1 */
+.custom-progress-bar-1{
+    font-size: 20px;
+}
+.custom-progress-bar-1 .label{
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius: 0;
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #34b7a7;
+}
+
+/* cart type-1 */
+.cart-type-1{}
+.cart-type-1 h3{
+    font-size: 40px;
+    color: #34b7a7;
+}
+.cart-type-1 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+/* card type 2 */
+
+.custom-card-2{
+    border: none;
+    border-radius: 0;
+}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.custom-card-2 .card-body .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+.custom-card-2 .card-body .card-subtitle{
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 15px 0;
+}
+.custom-card-2 .card-body .card-text{
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+.custom-card-2 .card-body .card-text i{
+    color: #c8efea;
+    font-size: 26px;
+}
+
+/* Custom card 3 */
+.custom-card-3{
+    border: none;
+    background: #fff;
+    box-shadow: 0px 0 35px 0 rgb( 0 0 0 / 8%);
+}
+.custom-card-3 .card-body{
+    padding: 60px;
+}
+.custom-card-3 .card-icon-wrapper{
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    color: #40aeb4;
+    margin: auto;
+    font-size: 38px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-1{
+    color: #47aeff;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-2{
+    color: #ffa76e;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-3{
+    color: #e80368;  
+}
+.custom-card-3 .card-icon-wrapper.card-icon-4{
+    color: #ffbb2c;
+}
+
+.custom-card-3:hover .card-icon-wrapper{
+    color: #fff;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-1{
+    background-color: #47aeff;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-2{
+    background-color: #ffa76e;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-3{
+    background-color: #e80368;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-4{
+    background-color: #ffbb2c;
+}
+
+.custom-card-3 .card-title{
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+.custom-card-3 .card-text{
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+
+
+/* List Style 1 */
+.list-style-1{
+    list-style: none;
+    padding-left: 0;
+}
+.list-style-1 li{
+    padding-bottom: 12px;
+}
+
+/* Timeline */
+.timeline{
+    border-left: 2px solid #34b7a7;
+    padding-left: 22px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.timeline:before{
+    content: '';
+    background: #fff;
+    border: 2px solid #34b7a7;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    color: #1d685f;
+    margin-bottom: 10px;
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #34b7a7;
+}
+.timeline p.small{}
+.timeline ul{
+    padding-left: 18px;
+    margin: 0;
+}
+.timeline ul li{
+    padding-bottom: 20px;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #e9e8e6;
+    width: 100%;
+    box-shadow: 0px 0px 25px 0 rgb( 0 0 0 / 8%);
+    padding: 10px 0 6px 0;
+}
+.banner{
+    background-image: url(../images/banner_1.png);
+    /* height:300px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+}
+.main-navigation .nav-link{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888;
+}
+.nav-link:hover{
+    color: #222;
+}
+.nav-link.active{
+    color: #222;
+}
+.main-navigation .nav-link i{
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #34b7a7;
+    transition: all 0.3s;
+}
+.main-navigation .nav-link:hover i{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #34b7a7;
+}
+.main-navigation .nav-link.active i{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #34b7a7;
+}
+.social-navigation{}
+.social-navigation ul{}
+.social-navigation ul li{}
+.social-navigation ul li a{
+    color: #6f6f6f;
+    padding: 8px 5px;
+    font-size: 18px;
+}      
+.social-navigation ul li a:hover{
+    color: #51cdbe;
+}
+
+.banner h1, .banner p, .banner a{
+      
+}
+
+.banner h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+}
+.banner p{
+    color: white;
+    margin: 20px 0 0 0;
+    font-size: 22px;
+}
+.banner a{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #34b7a7;
+}
+.banner{
+    padding-right: 10%
+}
+
+.footer{
+    background-color: #e9e8e6;
+    padding: 30px 0;
+    color: #222;
+    font-size: 14px;
+}
+.footer p{
+    margin: 0;
+}
+.footer a{
+    padding: 0;
+}
